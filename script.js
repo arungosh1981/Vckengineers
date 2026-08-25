@@ -1,12 +1,19 @@
-function toggleMenu() {
-  const nav = document.getElementById("navbar");
-  nav.classList.toggle("show");
-}
+const menuBtn = document.getElementById("menuBtn");
+const nav = document.getElementById("nav");
+const topBtn = document.getElementById("topBtn");
 
-/* Close mobile menu after selecting a section */
+menuBtn.addEventListener("click", () => {
+  nav.classList.toggle("open");
+});
 
-document.querySelectorAll("#navbar a").forEach(function(link) {
-  link.addEventListener("click", function() {
-    document.getElementById("navbar").classList.remove("show");
-  });
+document.querySelectorAll("#nav a").forEach(link => {
+  link.addEventListener("click", () => nav.classList.remove("open"));
+});
+
+window.addEventListener("scroll", () => {
+  topBtn.style.display = window.scrollY > 500 ? "grid" : "none";
+});
+
+topBtn.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
