@@ -3,281 +3,172 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#062b68">
-  <meta name="description" content="விசிக பொறியாளர் அணி – VCK Engineers Wing, தமிழ்நாடு">
-  <title>விசிக பொறியாளர் அணி | VCK Engineers Wing</title>
+  <meta name="theme-color" content="#071f4d">
+  <meta name="description" content="VCK Engineers Wing – பொறியாளர்கள் மற்றும் தொழில்நுட்ப வல்லுநர்களுக்கான தகவல் தளம்.">
+  <title>VCK பொறியாளர் அணி | VCK Engineers Wing</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header class="site-header">
   <div class="container nav-wrap">
-    <a class="brand" href="#home" aria-label="VCK Engineers Wing">
-      <img src="vck-engineers-logo.jpeg" alt="VCK Engineers Wing Logo" class="brand-logo"
-           onerror="this.onerror=null;this.src='19F0A218-CA78-4AB7-A1CD-E662F06517D2.png';">
-      <div>
-        <strong>விசிக பொறியாளர் அணி</strong>
-        <span>VCK ENGINEERS WING • TAMIL NADU</span>
-      </div>
+    <a class="brand" href="#home">
+      <img src="vck-engineers-logo.jpeg" alt="VCK Engineers Wing">
+      <span><b data-ta="VCK பொறியாளர் அணி" data-en="VCK Engineers Wing">VCK பொறியாளர் அணி</b>
+      <small data-ta="தொழில்நுட்பம் • சமூகப் பொறுப்பு" data-en="Technology • Social Responsibility">தொழில்நுட்பம் • சமூகப் பொறுப்பு</small></span>
     </a>
     <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
-    <nav id="mainNav">
-      <a href="#home">முகப்பு</a>
-      <a href="#leader">தலைவர்</a>
-      <a href="#about">எங்களைப் பற்றி</a>
-      <a href="#administration">நிர்வாகிகள்</a>
-      <a href="#announcements">அறிவிப்புகள்</a>
-      <a href="#activities">செயல்பாடுகள்</a>
-      <a href="#gallery">புகைப்படங்கள்</a>
-      <a href="#contact">தொடர்பு</a>
+    <nav id="nav">
+      <a href="#home" data-ta="முகப்பு" data-en="Home">முகப்பு</a>
+      <a href="#about" data-ta="எங்களைப் பற்றி" data-en="About">எங்களைப் பற்றி</a>
+      <a href="#activities" data-ta="செயல்பாடுகள்" data-en="Activities">செயல்பாடுகள்</a>
+      <a href="#leadership" data-ta="பொறுப்பாளர்கள்" data-en="Office Bearers">பொறுப்பாளர்கள்</a>
+      <a href="#events" data-ta="நிகழ்வுகள்" data-en="Events">நிகழ்வுகள்</a>
+      <a href="#gallery" data-ta="புகைப்படங்கள்" data-en="Gallery">புகைப்படங்கள்</a>
+      <a href="#contact" data-ta="தொடர்பு" data-en="Contact">தொடர்பு</a>
     </nav>
+    <button class="lang" id="langBtn">EN</button>
   </div>
 </header>
 
-<main id="home">
-  <section class="hero">
-    <div class="hero-pattern"></div>
-    <div class="container hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">விடுதலைச் சிறுத்தைகள் கட்சி</p>
-        <h1>பொறியாளர் அணி</h1>
-        <div class="hero-line"></div>
-        <p class="hero-tagline">அறிவியல் • தொழில்நுட்பம் • சமூகநீதி • மக்கள் பணி</p>
-        <p class="hero-text">
-          பொறியாளர்கள், தொழில்நுட்ப வல்லுநர்கள், மாணவர்கள் மற்றும் இளைஞர்களை
-          ஒருங்கிணைத்து சமூக முன்னேற்றத்திற்காக தொழில்நுட்ப அறிவை பயன்படுத்துவதே
-          விசிக பொறியாளர் அணியின் நோக்கம்.
-        </p>
-        <div class="hero-actions">
-          <a class="btn btn-primary" href="#leader">தலைமை அறிமுகம்</a>
-          <a class="btn btn-outline" href="#administration">நிர்வாகத்தைப் பார்க்க</a>
-        </div>
-      </div>
-      <div class="hero-logo-card">
-        <div class="logo-glow"></div>
-        <img src="vck-engineers-logo.jpeg" alt="VCK Engineers Wing official logo"
-             onerror="this.onerror=null;this.src='19F0A218-CA78-4AB7-A1CD-E662F06517D2.png';">
+<main>
+<section class="hero" id="home">
+  <div class="container hero-grid">
+    <div>
+      <p class="eyebrow" data-ta="விடுதலைச் சிறுத்தைகள் கட்சி • பொறியாளர் அணி" data-en="Viduthalai Chiruthaigal Katchi • Engineers Wing">விடுதலைச் சிறுத்தைகள் கட்சி • பொறியாளர் அணி</p>
+      <h1 data-ta="பொறியியல் அறிவை<br><span>சமூக முன்னேற்றத்துடன் இணைப்போம்.</span>"
+          data-en="Connecting Engineering Knowledge<br><span>with Social Progress.</span>">
+        பொறியியல் அறிவை<br><span>சமூக முன்னேற்றத்துடன் இணைப்போம்.</span>
+      </h1>
+      <p class="hero-text" data-ta="பொறியாளர்கள் மற்றும் தொழில்நுட்ப வல்லுநர்களின் அறிவு, அனுபவம் மற்றும் சமூகப் பொறுப்பை ஒருங்கிணைக்கும் தளம்."
+         data-en="A platform to connect the knowledge, experience and social responsibility of engineers and technology professionals.">
+        பொறியாளர்கள் மற்றும் தொழில்நுட்ப வல்லுநர்களின் அறிவு, அனுபவம் மற்றும் சமூகப் பொறுப்பை ஒருங்கிணைக்கும் தளம்.
+      </p>
+      <div class="actions">
+        <a class="btn primary" href="#about" data-ta="மேலும் அறிய" data-en="Explore">மேலும் அறிய</a>
+        <a class="btn outline" href="#gallery" data-ta="புகைப்படங்கள்" data-en="View Gallery">புகைப்படங்கள்</a>
       </div>
     </div>
-  </section>
-
-  <section class="quick-strip">
-    <div class="container quick-grid">
-      <div><span>01</span><strong>அறிவியல் சிந்தனை</strong><small>தொழில்நுட்ப திறன் வளர்ப்பு</small></div>
-      <div><span>02</span><strong>சமூகநீதி</strong><small>சமத்துவத்திற்கான பங்களிப்பு</small></div>
-      <div><span>03</span><strong>மக்கள் பணி</strong><small>பொறியியல் அறிவின் சமூகப் பயன்பாடு</small></div>
-      <div><span>04</span><strong>இளைஞர் ஒருங்கிணைப்பு</strong><small>திறமை மற்றும் தலைமை வளர்ப்பு</small></div>
-    </div>
-  </section>
-
-  <section id="leader" class="section leader-section">
-    <div class="container">
-      <div class="section-heading">
-        <span class="section-kicker">நிறுவனர் தலைவர்</span>
-        <h2>முனைவர் தொல். திருமாவளவன்</h2>
-        <p>விடுதலைச் சிறுத்தைகள் கட்சி • மக்களவை உறுப்பினர் • சிதம்பரம் நாடாளுமன்றத் தொகுதி</p>
-      </div>
-      <div class="leader-card">
-        <div class="leader-photo">
-          <img src="thirumavalavan.jpg" alt="முனைவர் தொல். திருமாவளவன்"
-               onerror="this.style.display='none';this.parentElement.classList.add('photo-missing');">
-          <div class="photo-fallback">திருமாவளவன்</div>
-        </div>
-        <div class="leader-content">
-          <span class="badge red">நிறுவனர் தலைவர்</span>
-          <h3>முனைவர் தொல். திருமாவளவன்</h3>
-          <h4>விடுதலைச் சிறுத்தைகள் கட்சி</h4>
-          <p class="lead">மக்களவை உறுப்பினர்<br>சிதம்பரம் நாடாளுமன்றத் தொகுதி</p>
-          <p>
-            சமூகநீதி, சமத்துவம், ஜனநாயகம் மற்றும் மனித உரிமைகளை முன்னிறுத்தி
-            சமூக மாற்றத்திற்காக தொடர்ந்து குரல் கொடுக்கும் தலைமையின்
-            வழிகாட்டுதலில், பொறியியல் துறையைச் சேர்ந்த இளைஞர்கள் மற்றும்
-            தொழில்நுட்ப வல்லுநர்களை ஒருங்கிணைத்து சமூகப் பணியில் ஈடுபடுவதே
-            விசிக பொறியாளர் அணியின் நோக்கமாகும்.
-          </p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section id="about" class="section section-soft">
-    <div class="container">
-      <div class="section-heading center">
-        <span class="section-kicker">எங்கள் நோக்கம்</span>
-        <h2>விசிக பொறியாளர் அணி</h2>
-        <p>அறிவியல் மற்றும் தொழில்நுட்பத்தை சமூக முன்னேற்றத்துடன் இணைக்கும் பொறுப்பான பொறியாளர் சமூகத்தை உருவாக்குதல்.</p>
-      </div>
-      <div class="mission-grid">
-        <article class="mission-card"><div class="icon">⚙</div><h3>தொழில்நுட்பம்</h3><p>நவீன தொழில்நுட்ப அறிவை சமூகப் பயன்பாட்டிற்கு கொண்டு வருதல்.</p></article>
-        <article class="mission-card"><div class="icon">✦</div><h3>அறிவியல் சிந்தனை</h3><p>அறிவியல் சிந்தனையையும் தொழில்நுட்ப திறன்களையும் வளர்த்தல்.</p></article>
-        <article class="mission-card"><div class="icon">⚖</div><h3>சமூகநீதி</h3><p>சமத்துவம் மற்றும் சமூகநீதிக்கான பணிகளில் பங்களித்தல்.</p></article>
-        <article class="mission-card"><div class="icon">🤝</div><h3>மக்கள் பணி</h3><p>பொறியியல் அறிவின் மூலம் மக்களுக்கு பயனுள்ள சேவைகளை உருவாக்குதல்.</p></article>
-      </div>
-    </div>
-  </section>
-
-  <section id="administration" class="section">
-    <div class="container">
-      <div class="section-heading">
-        <span class="section-kicker">மாநில நிர்வாகம்</span>
-        <h2>பொறியாளர் அணி நிர்வாகிகள்</h2>
-        <p>மாநில அளவில் பொறியாளர் அணியின் செயல்பாடுகளை ஒருங்கிணைக்கும் நிர்வாகம்.</p>
-      </div>
-      <div class="leaders-grid">
-        <article class="office-card featured-office">
-          <div class="office-top"><span class="office-number">01</span><span class="status-dot">அதிகாரப்பூர்வம்</span></div>
-          <div class="person-avatar">மா</div>
-          <span class="office-role">மாநிலச் செயலாளர்</span>
-          <h3>பெயர் விரைவில்</h3>
-          <p>VCK Engineers Wing – தமிழ்நாடு</p>
-          <div class="card-note">அதிகாரப்பூர்வமாக உறுதிசெய்யப்பட்ட பெயர் இங்கே புதுப்பிக்கப்படும்.</div>
-        </article>
-        <article class="office-card">
-          <div class="office-top"><span class="office-number">02</span><span class="status-dot">அதிகாரப்பூர்வம்</span></div>
-          <div class="person-avatar">து</div>
-          <span class="office-role">மாநில துணைச் செயலாளர்</span>
-          <h3>பெயர் விரைவில்</h3>
-          <p>VCK Engineers Wing – தமிழ்நாடு</p>
-          <div class="card-note">அதிகாரப்பூர்வமாக உறுதிசெய்யப்பட்ட பெயர் இங்கே புதுப்பிக்கப்படும்.</div>
-        </article>
-      </div>
-      <div class="office-address">
-        <div><span class="pin">⌖</span></div>
-        <div><strong>தலைமை அலுவலகம்</strong><p>சர்வமங்களா காலனி, அசோகா காலனி, அசோக் நகர்,<br>சென்னை – 600083, தமிழ்நாடு.</p></div>
-      </div>
-    </div>
-  </section>
-
-  <section id="announcements" class="section section-soft">
-    <div class="container">
-      <div class="section-heading">
-        <span class="section-kicker">அதிகாரப்பூர்வ தகவல்கள்</span>
-        <h2>அறிவிப்புகள் & முக்கிய செய்திகள்</h2>
-        <p>பொறியாளர் அணியின் அதிகாரப்பூர்வ அறிவிப்புகள், நியமனங்கள் மற்றும் முக்கிய தகவல்கள்.</p>
-      </div>
-      <div class="announcement-card">
-        <div class="date-box"><strong>15</strong><span>ஜூலை<br>2026</span></div>
-        <div class="announcement-body">
-          <span class="badge">மாநில அறிவிப்பு</span>
-          <h3>மாநிலப் பொறுப்புகள் – 15.07.2026</h3>
-          <p>பொறியாளர் அணிக்கான மாநிலப் பொறுப்புகள் அதிகாரப்பூர்வமாக அறிவிக்கப்பட்டுள்ளன.</p>
-        </div>
-        <a class="btn btn-outline" href="#administration">நிர்வாகத்தைப் பார்க்க →</a>
-      </div>
-      <div class="notice-note">அடுத்தடுத்த அதிகாரப்பூர்வ அறிவிப்புகள் இப்பகுதியில் தொடர்ந்து சேர்க்கப்படும்.</div>
-    </div>
-  </section>
-
-  <section id="activities" class="section">
-    <div class="container">
-      <div class="section-heading center">
-        <span class="section-kicker">எங்கள் பயணம்</span>
-        <h2>செயல்பாடுகள் & நிகழ்வுகள்</h2>
-        <p>கூட்டங்கள், ஆலோசனைகள், தொழில்நுட்ப நிகழ்வுகள் மற்றும் சமூகப் பணிகளின் பதிவுகள்.</p>
-      </div>
-      <div class="activity-timeline">
-        <div class="timeline-item"><span>01</span><div><h3>பொறியாளர்கள் ஒருங்கிணைப்பு</h3><p>தமிழ்நாடு முழுவதும் பொறியாளர்கள் மற்றும் தொழில்நுட்ப வல்லுநர்களை ஒருங்கிணைத்தல்.</p></div></div>
-        <div class="timeline-item"><span>02</span><div><h3>தொழில்நுட்ப அறிவுப் பகிர்வு</h3><p>நவீன தொழில்நுட்பம், அறிவியல் சிந்தனை மற்றும் திறன் மேம்பாட்டை ஊக்குவித்தல்.</p></div></div>
-        <div class="timeline-item"><span>03</span><div><h3>சமூகப் பயன்பாட்டு முயற்சிகள்</h3><p>பொறியியல் அறிவை மக்கள் நலனுக்கான பயனுள்ள முயற்சிகளுடன் இணைத்தல்.</p></div></div>
-      </div>
-    </div>
-  </section>
-
-  
-<section class="event-feature" id="engineers-wing-meeting">
-  <div class="section-heading">
-    <span class="eyebrow">சிறப்பு நிகழ்வு</span>
-    <h2>பொறியாளர் அணி செயற்குழுக் கூட்டம்</h2>
-    <p class="section-lead">பொறியாளர் அணி நிர்வாகிகள் மற்றும் பொறுப்பாளர்கள் பங்கேற்ற சிறப்பு செயற்குழுக் கூட்டத்தின் நிகழ்வுப் பதிவுகள்.</p>
-  </div>
-
-  <div class="event-card">
-    <div class="event-copy">
-      <div class="event-date">26.07.2026 · ஞாயிற்றுக்கிழமை · காலை 10.00 மணி</div>
-      <h3>தலைமை</h3>
-      <p class="event-person">எழுச்சித் தமிழர் தொல். திருமாவளவன்</p>
-      <h3>முன்னிலை / நடத்தல்</h3>
-      <p class="event-person">மாநிலச் செயலாளர் மு. மோகன்தாஸ்</p>
-      <p>பொறியியல் துறையைச் சேர்ந்த புதிய பொறுப்பாளர்கள் அறிமுகம், அமைப்பு வளர்ச்சி, செயல்திட்டங்கள் மற்றும் தமிழ்நாடு முழுவதும் பொறியாளர் அணியின் செயல்பாடுகளை வலுப்படுத்துதல் உள்ளிட்ட கருத்துகள் குறித்து நடைபெற்ற நிகழ்வு.</p>
-    </div>
-
-    <div class="event-hero">
-      <img src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-03.jpeg"
-           alt="பொறியாளர் அணி செயற்குழுக் கூட்டத்தில் உரையாற்றும் தலைவர்"
-           loading="lazy">
-    </div>
-  </div>
-
-  <div class="event-gallery">
-    <button class="event-photo" type="button" data-lightbox="event" data-src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-01.jpeg">
-      <img src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-01.jpeg" alt="பொறியாளர் அணி நிகழ்வு - 1" loading="lazy">
-    </button>
-    <button class="event-photo" type="button" data-lightbox="event" data-src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-02.jpeg">
-      <img src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-02.jpeg" alt="பொறியாளர் அணி நிகழ்வு - 2" loading="lazy">
-    </button>
-    <button class="event-photo" type="button" data-lightbox="event" data-src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-03.jpeg">
-      <img src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-03.jpeg" alt="பொறியாளர் அணி நிகழ்வு - 3" loading="lazy">
-    </button>
-    <button class="event-photo" type="button" data-lightbox="event" data-src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-04.jpeg">
-      <img src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-04.jpeg" alt="பொறியாளர் அணி நிகழ்வு - 4" loading="lazy">
-    </button>
+    <div class="hero-logo-card"><img src="vck-engineers-logo.jpeg" alt="VCK Engineers Wing Logo"></div>
   </div>
 </section>
 
-<section id="gallery" class="section gallery-section section-soft">
-    <div class="container">
-      <div class="section-heading">
-        <span class="section-kicker">நிகழ்வுகளின் பதிவுகள்</span>
-        <h2>புகைப்படத் தொகுப்பு</h2>
-        <p>விசிக பொறியாளர் அணியின் நிகழ்வுகள் மற்றும் செயல்பாடுகளின் புகைப்படங்கள்.</p>
-      </div>
-      <div class="gallery-grid">
-        <figure><img src="IMG_1495.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>பொறியாளர் அணி நிகழ்வு</figcaption></figure>
-        <figure><img src="IMG_2160.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>கூட்டம் / ஒருங்கிணைப்பு</figcaption></figure>
-        <figure><img src="IMG_2178.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>செயல்பாட்டு பதிவு</figcaption></figure>
-        <figure><img src="IMG_2211.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>பொறியாளர்கள் சந்திப்பு</figcaption></figure>
-        <figure><img src="IMG_2222.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>நிகழ்வின் சிறப்புப் பதிவு</figcaption></figure>
-        <figure><img src="IMG_2277.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>சமூகப் பணி</figcaption></figure>
-        <figure><img src="IMG_2278.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>பொறியாளர் அணியின் பயணம்</figcaption></figure>
-      </div>
-    </div>
-  </section>
+<section class="ticker">
+  <div class="container ticker-inner">
+    <span>★</span>
+    <b data-ta="அறிவு • ஒற்றுமை • திட்டமிடல் • செயல்பாடு • வெற்றி" data-en="Knowledge • Unity • Planning • Action • Success">அறிவு • ஒற்றுமை • திட்டமிடல் • செயல்பாடு • வெற்றி</b>
+  </div>
+</section>
 
-  <section class="join-banner">
-    <div class="container join-inner">
-      <div><span class="section-kicker">பொறியாளர்கள் • தொழில்நுட்ப வல்லுநர்கள் • மாணவர்கள்</span><h2>பொறியாளர் அணியில் இணையுங்கள்</h2><p>உங்கள் அறிவையும் திறமையையும் சமூக முன்னேற்றத்திற்காக பயன்படுத்த எங்களுடன் இணைந்து செயல்படுங்கள்.</p></div>
-      <a class="btn btn-light" href="#contact">தொடர்பு கொள்ளுங்கள் →</a>
+<section class="section" id="about">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow dark" data-ta="எங்களைப் பற்றி" data-en="About Us">எங்களைப் பற்றி</p>
+      <h2 data-ta="தொழில்நுட்ப அறிவை சமூகப் பயனாக மாற்றுவோம்" data-en="Turning technical knowledge into social value">தொழில்நுட்ப அறிவை சமூகப் பயனாக மாற்றுவோம்</h2>
     </div>
-  </section>
+    <div class="about-grid">
+      <article class="glass"><div class="icon">⚙</div><h3 data-ta="பொறியாளர் ஒருங்கிணைப்பு" data-en="Engineer Network">பொறியாளர் ஒருங்கிணைப்பு</h3><p data-ta="பல்வேறு பொறியியல் துறைகளில் உள்ளவர்களை இணைத்து அறிவுப் பகிர்வை வளர்த்தல்." data-en="Connecting professionals across engineering disciplines and encouraging knowledge sharing.">பல்வேறு பொறியியல் துறைகளில் உள்ளவர்களை இணைத்து அறிவுப் பகிர்வை வளர்த்தல்.</p></article>
+      <article class="glass"><div class="icon">💡</div><h3 data-ta="தொழில்நுட்ப முயற்சிகள்" data-en="Technical Initiatives">தொழில்நுட்ப முயற்சிகள்</h3><p data-ta="புதுமை, டிஜிட்டல் தொழில்நுட்பம் மற்றும் பொறியியல் தீர்வுகள் குறித்த கலந்துரையாடல்கள்." data-en="Discussions around innovation, digital technology and engineering solutions.">புதுமை, டிஜிட்டல் தொழில்நுட்பம் மற்றும் பொறியியல் தீர்வுகள் குறித்த கலந்துரையாடல்கள்.</p></article>
+      <article class="glass"><div class="icon">🤝</div><h3 data-ta="சமூகப் பங்களிப்பு" data-en="Social Contribution">சமூகப் பங்களிப்பு</h3><p data-ta="பொது நலன் மற்றும் சமூக முன்னேற்றத்திற்கான பொறியியல் அறிவைப் பயன்படுத்துதல்." data-en="Applying engineering knowledge for public welfare and social progress.">பொது நலன் மற்றும் சமூக முன்னேற்றத்திற்கான பொறியியல் அறிவைப் பயன்படுத்துதல்.</p></article>
+    </div>
+  </div>
+</section>
 
-  <section id="contact" class="section contact-section">
-    <div class="container contact-grid">
-      <div>
-        <span class="section-kicker">தொடர்பு</span>
-        <h2>எங்களை தொடர்பு கொள்ள</h2>
-        <p class="contact-intro">விசிக பொறியாளர் அணியின் அதிகாரப்பூர்வ தகவல்கள் மற்றும் செயல்பாடுகள் தொடர்பாக தொடர்பு கொள்ளலாம்.</p>
-        <div class="contact-card">
-          <strong>விசிக பொறியாளர் அணி</strong>
-          <span>தலைமை அலுவலகம்</span>
-          <p>சர்வமங்களா காலனி,<br>அசோகா காலனி,<br>அசோக் நகர்,<br>சென்னை – 600083,<br>தமிழ்நாடு.</p>
-        </div>
-      </div>
-      <div class="contact-logo">
-        <img src="vck-engineers-logo.jpeg" alt="VCK Engineers Wing Logo"
-             onerror="this.onerror=null;this.src='19F0A218-CA78-4AB7-A1CD-E662F06517D2.png';">
+<section class="section dark-section" id="activities">
+  <div class="container">
+    <div class="section-head light">
+      <p class="eyebrow" data-ta="முக்கிய செயல்பாடுகள்" data-en="Key Activities">முக்கிய செயல்பாடுகள்</p>
+      <h2 data-ta="பொறியாளர் அணியின் செயல்பாட்டு திசைகள்" data-en="Focus areas of the Engineers Wing">பொறியாளர் அணியின் செயல்பாட்டு திசைகள்</h2>
+    </div>
+    <div class="activity-list">
+      <div><span>01</span><b data-ta="தொழில்நுட்ப கருத்தரங்குகள்" data-en="Technical Seminars">தொழில்நுட்ப கருத்தரங்குகள்</b><p data-ta="தொழில்நுட்பம், தொழில் மற்றும் எதிர்கால திறன்கள் பற்றிய நிகழ்வுகள்." data-en="Sessions on technology, industry and future skills.">தொழில்நுட்பம், தொழில் மற்றும் எதிர்கால திறன்கள் பற்றிய நிகழ்வுகள்.</p></div>
+      <div><span>02</span><b data-ta="இளைஞர் வழிகாட்டுதல்" data-en="Youth Mentoring">இளைஞர் வழிகாட்டுதல்</b><p data-ta="மாணவர்கள் மற்றும் இளம் பொறியாளர்களுக்கு கல்வி மற்றும் தொழில் வழிகாட்டுதல்." data-en="Education and career guidance for students and young engineers.">மாணவர்கள் மற்றும் இளம் பொறியாளர்களுக்கு கல்வி மற்றும் தொழில் வழிகாட்டுதல்.</p></div>
+      <div><span>03</span><b data-ta="சமூகத் திட்டங்கள்" data-en="Community Projects">சமூகத் திட்டங்கள்</b><p data-ta="பொது பயன்பாட்டுக்கான தொழில்நுட்ப மற்றும் பொறியியல் அடிப்படையிலான முயற்சிகள்." data-en="Engineering and technology initiatives for public benefit.">பொது பயன்பாட்டுக்கான தொழில்நுட்ப மற்றும் பொறியியல் அடிப்படையிலான முயற்சிகள்.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="leadership">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow dark" data-ta="தலைமை & பொறுப்பாளர்கள்" data-en="Leadership & Office Bearers">தலைமை & பொறுப்பாளர்கள்</p>
+      <h2 data-ta="பொறியாளர் அணியின் நிர்வாகக் குழு" data-en="Engineers Wing Leadership">பொறியாளர் அணியின் நிர்வாகக் குழு</h2>
+      <p data-ta="பொறுப்பாளர்களின் பெயர், பதவி மற்றும் புகைப்படங்களை அடுத்த கட்டத்தில் இங்கு சேர்க்கலாம்." data-en="Names, designations and photographs of office bearers can be added here in the next step.">பொறுப்பாளர்களின் பெயர், பதவி மற்றும் புகைப்படங்களை அடுத்த கட்டத்தில் இங்கு சேர்க்கலாம்.</p>
+    </div>
+    <div class="leaders">
+      <article class="leader"><div class="avatar">VCK</div><h3 data-ta="மாநில பொறுப்பாளர்" data-en="State Office Bearer">மாநில பொறுப்பாளர்</h3><p data-ta="பெயர் விரைவில் சேர்க்கப்படும்" data-en="Name to be added">பெயர் விரைவில் சேர்க்கப்படும்</p></article>
+      <article class="leader"><div class="avatar">ENG</div><h3 data-ta="மாநில ஒருங்கிணைப்பாளர்" data-en="State Coordinator">மாநில ஒருங்கிணைப்பாளர்</h3><p data-ta="பெயர் விரைவில் சேர்க்கப்படும்" data-en="Name to be added">பெயர் விரைவில் சேர்க்கப்படும்</p></article>
+      <article class="leader"><div class="avatar">⚙</div><h3 data-ta="மாவட்ட பொறுப்பாளர்கள்" data-en="District Office Bearers">மாவட்ட பொறுப்பாளர்கள்</h3><p data-ta="விவரங்கள் விரைவில் சேர்க்கப்படும்" data-en="Details to be added">விவரங்கள் விரைவில் சேர்க்கப்படும்</p></article>
+    </div>
+  </div>
+</section>
+
+<section class="section alt" id="events">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow dark" data-ta="நிகழ்வுகள் & அறிவிப்புகள்" data-en="Events & Announcements">நிகழ்வுகள் & அறிவிப்புகள்</p>
+      <h2 data-ta="பொறியாளர் அணி செயற்குழுக் கூட்டம்" data-en="Engineers Wing Executive Committee Meeting">பொறியாளர் அணி செயற்குழுக் கூட்டம்</h2>
+      <p data-ta="26.07.2026 • ஞாயிற்றுக்கிழமை • காலை 10.00 மணி" data-en="26.07.2026 • Sunday • 10:00 AM">26.07.2026 • ஞாயிற்றுக்கிழமை • காலை 10.00 மணி</p>
+    </div>
+    <div class="event-card">
+      <div class="datebox"><strong>26</strong><span>JUL 2026</span></div>
+      <div class="event-copy">
+        <span class="tag" data-ta="சிறப்பு நிகழ்வு" data-en="Featured Event">சிறப்பு நிகழ்வு</span>
+        <h3 data-ta="எழுச்சித்தமிழர் தொல். திருமாவளவன் தலைமையில்" data-en="Under the leadership of Thol. Thirumavalavan">எழுச்சித்தமிழர் தொல். திருமாவளவன் தலைமையில்</h3>
+        <p data-ta="பொறியாளர் அணி செயற்குழுக் கூட்டம் மற்றும் புதிய பொறுப்பாளர்கள் அறிமுக நிகழ்வு. கூட்டத்தை பொறியாளர் அணி மாநிலச் செயலாளர் மு. மோகன்தாஸ் முன்னெடுத்தார்." data-en="Engineers Wing executive committee meeting and introduction of new office bearers. The programme was led by State Secretary M. Mohandoss.">பொறியாளர் அணி செயற்குழுக் கூட்டம் மற்றும் புதிய பொறுப்பாளர்கள் அறிமுக நிகழ்வு. கூட்டத்தை பொறியாளர் அணி மாநிலச் செயலாளர் மு. மோகன்தாஸ் முன்னெடுத்தார்.</p>
       </div>
     </div>
-  </section>
+    <div class="event-gallery" aria-label="26 July 2026 Engineers Wing event photographs">
+      <button class="event-photo event-photo-feature" data-full="engineers-meeting-01.jpeg"><img src="engineers-meeting-01.jpeg" alt="பொறியாளர் அணி நிகழ்வு – 26.07.2026"></button>
+      <button class="event-photo" data-full="engineers-meeting-02.jpeg"><img src="engineers-meeting-02.jpeg" alt="பொறியாளர் அணி நிகழ்வு – 26.07.2026"></button>
+      <button class="event-photo" data-full="engineers-meeting-03.jpeg"><img src="engineers-meeting-03.jpeg" alt="பொறியாளர் அணி நிகழ்வு – 26.07.2026"></button>
+      <button class="event-photo" data-full="engineers-meeting-04.jpeg"><img src="engineers-meeting-04.jpeg" alt="பொறியாளர் அணி நிகழ்வு – 26.07.2026"></button>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="gallery">
+  <div class="container">
+    <div class="section-head">
+      <p class="eyebrow dark" data-ta="புகைப்படத் தொகுப்பு" data-en="Photo Gallery">புகைப்படத் தொகுப்பு</p>
+      <h2 data-ta="எங்கள் செயல்பாடுகளின் நினைவுகள்" data-en="Memories of our activities">எங்கள் செயல்பாடுகளின் நினைவுகள்</h2>
+    </div>
+    <div class="gallery">
+      <button class="photo" data-full="IMG_1495.jpeg"><img src="IMG_1495.jpeg" alt="VCK Engineers event"></button>
+      <button class="photo" data-full="IMG_2160.jpeg"><img src="IMG_2160.jpeg" alt="VCK Engineers event"></button>
+      <button class="photo" data-full="IMG_2178.jpeg"><img src="IMG_2178.jpeg" alt="VCK Engineers event"></button>
+      <button class="photo" data-full="IMG_2211.jpeg"><img src="IMG_2211.jpeg" alt="VCK Engineers event"></button>
+      <button class="photo" data-full="IMG_2222.jpeg"><img src="IMG_2222.jpeg" alt="VCK Engineers event"></button>
+    </div>
+  </div>
+</section>
+
+<section class="section office" id="contact">
+  <div class="container contact-grid">
+    <div>
+      <p class="eyebrow dark" data-ta="தொடர்பு" data-en="Contact">தொடர்பு</p>
+      <h2 data-ta="VCK தலைமை அலுவலகம்" data-en="VCK Head Office">VCK தலைமை அலுவலகம்</h2>
+      <p class="address">Sarvamangala Colony,<br>Ashoka Colony, Ashok Nagar,<br>Chennai – 600083,<br>Tamil Nadu, India.</p>
+      <p class="muted" data-ta="பொறியாளர் அணி தொடர்பு விவரங்கள் விரைவில் சேர்க்கப்படும்." data-en="Engineers Wing contact details will be added soon.">பொறியாளர் அணி தொடர்பு விவரங்கள் விரைவில் சேர்க்கப்படும்.</p>
+    </div>
+    <div class="map-card">
+      <div class="map-pin">⌖</div>
+      <h3 data-ta="சென்னை • தமிழ்நாடு" data-en="Chennai • Tamil Nadu">சென்னை • தமிழ்நாடு</h3>
+      <p data-ta="தலைமை அலுவலகம்" data-en="Head Office">தலைமை அலுவலகம்</p>
+      <a class="btn primary" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Sarvamangala+Colony+Ashoka+Colony+Ashok+Nagar+Chennai+600083">Google Maps</a>
+    </div>
+  </div>
+</section>
 </main>
+
+<div class="lightbox" id="lightbox"><button id="closeLightbox">×</button><img id="lightboxImg" alt="Gallery image"></div>
 
 <footer>
   <div class="container footer-inner">
-    <div><strong>விசிக பொறியாளர் அணி</strong><span>அறிவியல் • தொழில்நுட்பம் • சமூகநீதி • மக்கள் பணி</span></div>
-    <div>© 2026 VCK Engineers Wing – Tamil Nadu</div>
+    <div><b>VCK பொறியாளர் அணி</b><span>VCK Engineers Wing</span></div>
+    <p data-ta="அறிவு • ஒற்றுமை • சமூகப் பொறுப்பு" data-en="Knowledge • Unity • Social Responsibility">அறிவு • ஒற்றுமை • சமூகப் பொறுப்பு</p>
+    <small>© <span id="year"></span> VCK Engineers Wing</small>
   </div>
 </footer>
-
-<button id="topBtn" class="top-btn" aria-label="மேலே செல்ல">↑</button>
-<div id="lightbox" class="lightbox" aria-hidden="true"><button id="closeLightbox" aria-label="Close">×</button><img id="lightboxImg" alt=""></div>
 <script src="script.js"></script>
 </body>
 </html>
