@@ -1,101 +1,283 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ta">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>VCK Engineers Wing | பொறியாளர் அணி</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#062b68">
+  <meta name="description" content="விசிக பொறியாளர் அணி – VCK Engineers Wing, தமிழ்நாடு">
+  <title>விசிக பொறியாளர் அணி | VCK Engineers Wing</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-  <div class="top">விடுதலைச் சிறுத்தைகள் கட்சி <span>VCK ENGINEERS WING</span></div>
-  <div class="nav">
-    <a class="brand" href="#home">
-      <img src="vck-engineers-logo.jpeg" alt="VCK Engineers Wing"
-           onerror="this.onerror=null;this.src='19F0A218-CA78-4AB7-A1CD-E662F06517D2.png'">
-      <b>பொறியாளர் அணி<small>VCK Engineers Wing</small></b>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#home" aria-label="VCK Engineers Wing">
+      <img src="vck-engineers-logo.jpeg" alt="VCK Engineers Wing Logo" class="brand-logo"
+           onerror="this.onerror=null;this.src='19F0A218-CA78-4AB7-A1CD-E662F06517D2.png';">
+      <div>
+        <strong>விசிக பொறியாளர் அணி</strong>
+        <span>VCK ENGINEERS WING • TAMIL NADU</span>
+      </div>
     </a>
-    <button id="menu">☰</button>
-    <nav id="links">
-      <a href="#home">முகப்பு</a><a href="#about">எங்களைப் பற்றி</a>
-      <a href="#leadership">தலைமை</a><a href="#office">மாநில நிர்வாகிகள்</a>
-      <a href="#activities">செயல்பாடுகள்</a><a href="#gallery">புகைப்படங்கள்</a><a href="#contact">தொடர்பு</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu">☰</button>
+    <nav id="mainNav">
+      <a href="#home">முகப்பு</a>
+      <a href="#leader">தலைவர்</a>
+      <a href="#about">எங்களைப் பற்றி</a>
+      <a href="#administration">நிர்வாகிகள்</a>
+      <a href="#announcements">அறிவிப்புகள்</a>
+      <a href="#activities">செயல்பாடுகள்</a>
+      <a href="#gallery">புகைப்படங்கள்</a>
+      <a href="#contact">தொடர்பு</a>
     </nav>
   </div>
 </header>
 
-<section class="hero" id="home">
- <div class="hero-text">
-  <small>VCK ENGINEERS WING</small>
-  <h1>தொழில்நுட்ப அறிவும்<br><em>சமூகப் பொறுப்பும்</em></h1>
-  <p>பொறியாளர்கள், தொழில்நுட்ப வல்லுநர்கள் மற்றும் இளம் திறமைகளை ஒருங்கிணைத்து சமூக முன்னேற்றத்திற்கும் மக்கள் நலனுக்கும் தொழில்நுட்பத்தைப் பயன்படுத்தும் பொறுப்பான தளம்.</p>
-  <div><a class="btn red" href="#office">மாநில நிர்வாகிகள்</a><a class="btn" href="#gallery">புகைப்படங்கள்</a></div>
-  <p class="tags">✓ கருத்தியல் &nbsp; ✓ திட்டமிடல் &nbsp; ✓ தொழில்நுட்பம் &nbsp; ✓ சமூக முன்னேற்றம்</p>
- </div>
- <div class="hero-logo"><img src="vck-engineers-logo.jpeg" alt="VCK Engineers Wing Logo"
- onerror="this.onerror=null;this.src='19F0A218-CA78-4AB7-A1CD-E662F06517D2.png'"><b>விடுதலைச் சிறுத்தைகள் கட்சி<br>பொறியாளர் அணி</b></div>
+<main id="home">
+  <section class="hero">
+    <div class="hero-pattern"></div>
+    <div class="container hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">விடுதலைச் சிறுத்தைகள் கட்சி</p>
+        <h1>பொறியாளர் அணி</h1>
+        <div class="hero-line"></div>
+        <p class="hero-tagline">அறிவியல் • தொழில்நுட்பம் • சமூகநீதி • மக்கள் பணி</p>
+        <p class="hero-text">
+          பொறியாளர்கள், தொழில்நுட்ப வல்லுநர்கள், மாணவர்கள் மற்றும் இளைஞர்களை
+          ஒருங்கிணைத்து சமூக முன்னேற்றத்திற்காக தொழில்நுட்ப அறிவை பயன்படுத்துவதே
+          விசிக பொறியாளர் அணியின் நோக்கம்.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#leader">தலைமை அறிமுகம்</a>
+          <a class="btn btn-outline" href="#administration">நிர்வாகத்தைப் பார்க்க</a>
+        </div>
+      </div>
+      <div class="hero-logo-card">
+        <div class="logo-glow"></div>
+        <img src="vck-engineers-logo.jpeg" alt="VCK Engineers Wing official logo"
+             onerror="this.onerror=null;this.src='19F0A218-CA78-4AB7-A1CD-E662F06517D2.png';">
+      </div>
+    </div>
+  </section>
+
+  <section class="quick-strip">
+    <div class="container quick-grid">
+      <div><span>01</span><strong>அறிவியல் சிந்தனை</strong><small>தொழில்நுட்ப திறன் வளர்ப்பு</small></div>
+      <div><span>02</span><strong>சமூகநீதி</strong><small>சமத்துவத்திற்கான பங்களிப்பு</small></div>
+      <div><span>03</span><strong>மக்கள் பணி</strong><small>பொறியியல் அறிவின் சமூகப் பயன்பாடு</small></div>
+      <div><span>04</span><strong>இளைஞர் ஒருங்கிணைப்பு</strong><small>திறமை மற்றும் தலைமை வளர்ப்பு</small></div>
+    </div>
+  </section>
+
+  <section id="leader" class="section leader-section">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-kicker">நிறுவனர் தலைவர்</span>
+        <h2>முனைவர் தொல். திருமாவளவன்</h2>
+        <p>விடுதலைச் சிறுத்தைகள் கட்சி • மக்களவை உறுப்பினர் • சிதம்பரம் நாடாளுமன்றத் தொகுதி</p>
+      </div>
+      <div class="leader-card">
+        <div class="leader-photo">
+          <img src="thirumavalavan.jpg" alt="முனைவர் தொல். திருமாவளவன்"
+               onerror="this.style.display='none';this.parentElement.classList.add('photo-missing');">
+          <div class="photo-fallback">திருமாவளவன்</div>
+        </div>
+        <div class="leader-content">
+          <span class="badge red">நிறுவனர் தலைவர்</span>
+          <h3>முனைவர் தொல். திருமாவளவன்</h3>
+          <h4>விடுதலைச் சிறுத்தைகள் கட்சி</h4>
+          <p class="lead">மக்களவை உறுப்பினர்<br>சிதம்பரம் நாடாளுமன்றத் தொகுதி</p>
+          <p>
+            சமூகநீதி, சமத்துவம், ஜனநாயகம் மற்றும் மனித உரிமைகளை முன்னிறுத்தி
+            சமூக மாற்றத்திற்காக தொடர்ந்து குரல் கொடுக்கும் தலைமையின்
+            வழிகாட்டுதலில், பொறியியல் துறையைச் சேர்ந்த இளைஞர்கள் மற்றும்
+            தொழில்நுட்ப வல்லுநர்களை ஒருங்கிணைத்து சமூகப் பணியில் ஈடுபடுவதே
+            விசிக பொறியாளர் அணியின் நோக்கமாகும்.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section section-soft">
+    <div class="container">
+      <div class="section-heading center">
+        <span class="section-kicker">எங்கள் நோக்கம்</span>
+        <h2>விசிக பொறியாளர் அணி</h2>
+        <p>அறிவியல் மற்றும் தொழில்நுட்பத்தை சமூக முன்னேற்றத்துடன் இணைக்கும் பொறுப்பான பொறியாளர் சமூகத்தை உருவாக்குதல்.</p>
+      </div>
+      <div class="mission-grid">
+        <article class="mission-card"><div class="icon">⚙</div><h3>தொழில்நுட்பம்</h3><p>நவீன தொழில்நுட்ப அறிவை சமூகப் பயன்பாட்டிற்கு கொண்டு வருதல்.</p></article>
+        <article class="mission-card"><div class="icon">✦</div><h3>அறிவியல் சிந்தனை</h3><p>அறிவியல் சிந்தனையையும் தொழில்நுட்ப திறன்களையும் வளர்த்தல்.</p></article>
+        <article class="mission-card"><div class="icon">⚖</div><h3>சமூகநீதி</h3><p>சமத்துவம் மற்றும் சமூகநீதிக்கான பணிகளில் பங்களித்தல்.</p></article>
+        <article class="mission-card"><div class="icon">🤝</div><h3>மக்கள் பணி</h3><p>பொறியியல் அறிவின் மூலம் மக்களுக்கு பயனுள்ள சேவைகளை உருவாக்குதல்.</p></article>
+      </div>
+    </div>
+  </section>
+
+  <section id="administration" class="section">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-kicker">மாநில நிர்வாகம்</span>
+        <h2>பொறியாளர் அணி நிர்வாகிகள்</h2>
+        <p>மாநில அளவில் பொறியாளர் அணியின் செயல்பாடுகளை ஒருங்கிணைக்கும் நிர்வாகம்.</p>
+      </div>
+      <div class="leaders-grid">
+        <article class="office-card featured-office">
+          <div class="office-top"><span class="office-number">01</span><span class="status-dot">அதிகாரப்பூர்வம்</span></div>
+          <div class="person-avatar">மா</div>
+          <span class="office-role">மாநிலச் செயலாளர்</span>
+          <h3>பெயர் விரைவில்</h3>
+          <p>VCK Engineers Wing – தமிழ்நாடு</p>
+          <div class="card-note">அதிகாரப்பூர்வமாக உறுதிசெய்யப்பட்ட பெயர் இங்கே புதுப்பிக்கப்படும்.</div>
+        </article>
+        <article class="office-card">
+          <div class="office-top"><span class="office-number">02</span><span class="status-dot">அதிகாரப்பூர்வம்</span></div>
+          <div class="person-avatar">து</div>
+          <span class="office-role">மாநில துணைச் செயலாளர்</span>
+          <h3>பெயர் விரைவில்</h3>
+          <p>VCK Engineers Wing – தமிழ்நாடு</p>
+          <div class="card-note">அதிகாரப்பூர்வமாக உறுதிசெய்யப்பட்ட பெயர் இங்கே புதுப்பிக்கப்படும்.</div>
+        </article>
+      </div>
+      <div class="office-address">
+        <div><span class="pin">⌖</span></div>
+        <div><strong>தலைமை அலுவலகம்</strong><p>சர்வமங்களா காலனி, அசோகா காலனி, அசோக் நகர்,<br>சென்னை – 600083, தமிழ்நாடு.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="announcements" class="section section-soft">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-kicker">அதிகாரப்பூர்வ தகவல்கள்</span>
+        <h2>அறிவிப்புகள் & முக்கிய செய்திகள்</h2>
+        <p>பொறியாளர் அணியின் அதிகாரப்பூர்வ அறிவிப்புகள், நியமனங்கள் மற்றும் முக்கிய தகவல்கள்.</p>
+      </div>
+      <div class="announcement-card">
+        <div class="date-box"><strong>15</strong><span>ஜூலை<br>2026</span></div>
+        <div class="announcement-body">
+          <span class="badge">மாநில அறிவிப்பு</span>
+          <h3>மாநிலப் பொறுப்புகள் – 15.07.2026</h3>
+          <p>பொறியாளர் அணிக்கான மாநிலப் பொறுப்புகள் அதிகாரப்பூர்வமாக அறிவிக்கப்பட்டுள்ளன.</p>
+        </div>
+        <a class="btn btn-outline" href="#administration">நிர்வாகத்தைப் பார்க்க →</a>
+      </div>
+      <div class="notice-note">அடுத்தடுத்த அதிகாரப்பூர்வ அறிவிப்புகள் இப்பகுதியில் தொடர்ந்து சேர்க்கப்படும்.</div>
+    </div>
+  </section>
+
+  <section id="activities" class="section">
+    <div class="container">
+      <div class="section-heading center">
+        <span class="section-kicker">எங்கள் பயணம்</span>
+        <h2>செயல்பாடுகள் & நிகழ்வுகள்</h2>
+        <p>கூட்டங்கள், ஆலோசனைகள், தொழில்நுட்ப நிகழ்வுகள் மற்றும் சமூகப் பணிகளின் பதிவுகள்.</p>
+      </div>
+      <div class="activity-timeline">
+        <div class="timeline-item"><span>01</span><div><h3>பொறியாளர்கள் ஒருங்கிணைப்பு</h3><p>தமிழ்நாடு முழுவதும் பொறியாளர்கள் மற்றும் தொழில்நுட்ப வல்லுநர்களை ஒருங்கிணைத்தல்.</p></div></div>
+        <div class="timeline-item"><span>02</span><div><h3>தொழில்நுட்ப அறிவுப் பகிர்வு</h3><p>நவீன தொழில்நுட்பம், அறிவியல் சிந்தனை மற்றும் திறன் மேம்பாட்டை ஊக்குவித்தல்.</p></div></div>
+        <div class="timeline-item"><span>03</span><div><h3>சமூகப் பயன்பாட்டு முயற்சிகள்</h3><p>பொறியியல் அறிவை மக்கள் நலனுக்கான பயனுள்ள முயற்சிகளுடன் இணைத்தல்.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  
+<section class="event-feature" id="engineers-wing-meeting">
+  <div class="section-heading">
+    <span class="eyebrow">சிறப்பு நிகழ்வு</span>
+    <h2>பொறியாளர் அணி செயற்குழுக் கூட்டம்</h2>
+    <p class="section-lead">பொறியாளர் அணி நிர்வாகிகள் மற்றும் பொறுப்பாளர்கள் பங்கேற்ற சிறப்பு செயற்குழுக் கூட்டத்தின் நிகழ்வுப் பதிவுகள்.</p>
+  </div>
+
+  <div class="event-card">
+    <div class="event-copy">
+      <div class="event-date">26.07.2026 · ஞாயிற்றுக்கிழமை · காலை 10.00 மணி</div>
+      <h3>தலைமை</h3>
+      <p class="event-person">எழுச்சித் தமிழர் தொல். திருமாவளவன்</p>
+      <h3>முன்னிலை / நடத்தல்</h3>
+      <p class="event-person">மாநிலச் செயலாளர் மு. மோகன்தாஸ்</p>
+      <p>பொறியியல் துறையைச் சேர்ந்த புதிய பொறுப்பாளர்கள் அறிமுகம், அமைப்பு வளர்ச்சி, செயல்திட்டங்கள் மற்றும் தமிழ்நாடு முழுவதும் பொறியாளர் அணியின் செயல்பாடுகளை வலுப்படுத்துதல் உள்ளிட்ட கருத்துகள் குறித்து நடைபெற்ற நிகழ்வு.</p>
+    </div>
+
+    <div class="event-hero">
+      <img src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-03.jpeg"
+           alt="பொறியாளர் அணி செயற்குழுக் கூட்டத்தில் உரையாற்றும் தலைவர்"
+           loading="lazy">
+    </div>
+  </div>
+
+  <div class="event-gallery">
+    <button class="event-photo" type="button" data-lightbox="event" data-src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-01.jpeg">
+      <img src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-01.jpeg" alt="பொறியாளர் அணி நிகழ்வு - 1" loading="lazy">
+    </button>
+    <button class="event-photo" type="button" data-lightbox="event" data-src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-02.jpeg">
+      <img src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-02.jpeg" alt="பொறியாளர் அணி நிகழ்வு - 2" loading="lazy">
+    </button>
+    <button class="event-photo" type="button" data-lightbox="event" data-src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-03.jpeg">
+      <img src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-03.jpeg" alt="பொறியாளர் அணி நிகழ்வு - 3" loading="lazy">
+    </button>
+    <button class="event-photo" type="button" data-lightbox="event" data-src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-04.jpeg">
+      <img src="images/events/2026-07-26-engineers-wing-meeting/engineers-wing-meeting-04.jpeg" alt="பொறியாளர் அணி நிகழ்வு - 4" loading="lazy">
+    </button>
+  </div>
 </section>
 
-<div class="stats"><span>01<br><b>தலைமை வழிகாட்டுதல்</b></span><span>02<br><b>மாநில நிர்வாகம்</b></span><span>03<br><b>சமூகப் பங்களிப்பு</b></span><span>04<br><b>தொழில்நுட்ப வளர்ச்சி</b></span></div>
+<section id="gallery" class="section gallery-section section-soft">
+    <div class="container">
+      <div class="section-heading">
+        <span class="section-kicker">நிகழ்வுகளின் பதிவுகள்</span>
+        <h2>புகைப்படத் தொகுப்பு</h2>
+        <p>விசிக பொறியாளர் அணியின் நிகழ்வுகள் மற்றும் செயல்பாடுகளின் புகைப்படங்கள்.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure><img src="IMG_1495.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>பொறியாளர் அணி நிகழ்வு</figcaption></figure>
+        <figure><img src="IMG_2160.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>கூட்டம் / ஒருங்கிணைப்பு</figcaption></figure>
+        <figure><img src="IMG_2178.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>செயல்பாட்டு பதிவு</figcaption></figure>
+        <figure><img src="IMG_2211.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>பொறியாளர்கள் சந்திப்பு</figcaption></figure>
+        <figure><img src="IMG_2222.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>நிகழ்வின் சிறப்புப் பதிவு</figcaption></figure>
+        <figure><img src="IMG_2277.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>சமூகப் பணி</figcaption></figure>
+        <figure><img src="IMG_2278.jpeg" alt="VCK Engineers நிகழ்வு" loading="lazy"><figcaption>பொறியாளர் அணியின் பயணம்</figcaption></figure>
+      </div>
+    </div>
+  </section>
 
-<section class="section" id="about">
- <label>01 / ABOUT</label><h2>எங்களைப் பற்றி</h2><p class="sub">அறிவு • ஒருங்கிணைப்பு • தொழில்நுட்பம் • சமூகப் பொறுப்பு</p>
- <div class="about">
-  <div class="about-main">விடுதலைச் சிறுத்தைகள் கட்சியின் பொறியாளர் அணி, பொறியியல் மற்றும் தொழில்நுட்பத் துறையில் பணியாற்றும் தோழர்களை ஒருங்கிணைத்து, அறிவு, திட்டமிடல், தொழில்நுட்பத் திறன் மற்றும் சமூகப் பொறுப்பை இணைக்கும் நோக்கத்துடன் செயல்படுகிறது.</div>
-  <div><b>கருத்தியல்</b><p>சமூக நீதி மற்றும் சமத்துவம்</p></div>
-  <div><b>திட்டம்</b><p>தரமான செயல்திட்டம் மற்றும் ஒருங்கிணைப்பு</p></div>
-  <div><b>தொழில்நுட்பம்</b><p>அறிவியல் மற்றும் நவீன தொழில்நுட்பப் பயன்பாடு</p></div>
-  <div><b>சமூக முன்னேற்றம்</b><p>மக்கள் நலனுக்கான செயல்பாடுகள்</p></div>
- </div>
-</section>
+  <section class="join-banner">
+    <div class="container join-inner">
+      <div><span class="section-kicker">பொறியாளர்கள் • தொழில்நுட்ப வல்லுநர்கள் • மாணவர்கள்</span><h2>பொறியாளர் அணியில் இணையுங்கள்</h2><p>உங்கள் அறிவையும் திறமையையும் சமூக முன்னேற்றத்திற்காக பயன்படுத்த எங்களுடன் இணைந்து செயல்படுங்கள்.</p></div>
+      <a class="btn btn-light" href="#contact">தொடர்பு கொள்ளுங்கள் →</a>
+    </div>
+  </section>
 
-<section class="section gray" id="leadership">
- <label>02 / LEADERSHIP</label><h2>வழிகாட்டும் தலைமை</h2>
- <div class="leader">
-  <div class="leader-photo"><img src="thirumavalavan.jpg" alt="முனைவர் தொல். திருமாவளவன்"
-  onerror="this.onerror=null;this.src='thirumavalavan.jpeg'"></div>
-  <div class="leader-copy"><span>நிறுவனர் தலைவர்</span><h3>முனைவர் தொல். திருமாவளவன்</h3><h4>விடுதலைச் சிறுத்தைகள் கட்சி</h4>
-  <strong>மக்களவை உறுப்பினர் · சிதம்பரம் நாடாளுமன்றத் தொகுதி</strong>
-  <p>சமூகநீதி, சமத்துவம், ஜனநாயகம் மற்றும் மனித உரிமைகளை முன்னிறுத்தி சமூக மாற்றத்திற்காக தொடர்ந்து குரல் கொடுக்கும் தலைமையின் வழிகாட்டுதலில், பொறியியல் துறையைச் சேர்ந்த இளைஞர்கள் மற்றும் தொழில்நுட்ப வல்லுநர்களை ஒருங்கிணைத்து சமூகப் பணியில் ஈடுபடுவதே VCK பொறியாளர் அணியின் நோக்கமாகும்.</p></div>
- </div>
-</section>
+  <section id="contact" class="section contact-section">
+    <div class="container contact-grid">
+      <div>
+        <span class="section-kicker">தொடர்பு</span>
+        <h2>எங்களை தொடர்பு கொள்ள</h2>
+        <p class="contact-intro">விசிக பொறியாளர் அணியின் அதிகாரப்பூர்வ தகவல்கள் மற்றும் செயல்பாடுகள் தொடர்பாக தொடர்பு கொள்ளலாம்.</p>
+        <div class="contact-card">
+          <strong>விசிக பொறியாளர் அணி</strong>
+          <span>தலைமை அலுவலகம்</span>
+          <p>சர்வமங்களா காலனி,<br>அசோகா காலனி,<br>அசோக் நகர்,<br>சென்னை – 600083,<br>தமிழ்நாடு.</p>
+        </div>
+      </div>
+      <div class="contact-logo">
+        <img src="vck-engineers-logo.jpeg" alt="VCK Engineers Wing Logo"
+             onerror="this.onerror=null;this.src='19F0A218-CA78-4AB7-A1CD-E662F06517D2.png';">
+      </div>
+    </div>
+  </section>
+</main>
 
-<section class="section" id="office">
- <label>03 / STATE ORGANISATION</label><h2>மாநில நிர்வாகிகள்</h2><p class="sub">15.07.2026 அன்று வெளியிடப்பட்ட அதிகாரப்பூர்வ அறிவிப்பின் அடிப்படையில்</p>
- <div class="cards">
-  <article><i>⚙</i><small>மாநிலச் செயலாளர்</small><h3>மு. மோகன்தாஸ்</h3><em>State Secretary</em></article>
-  <article><i>◈</i><small>மாநில ஒருங்கிணைப்பாளர்</small><h3>இல. முத்தமுதன்</h3><em>State Coordinator</em></article>
-  <article><i>₹</i><small>மாநில நிதிச் செயலாளர்</small><h3>ஏ. பன்னீர்செல்வம்</h3><em>State Finance Secretary</em></article>
- </div>
- <div class="notice"><div><small>அதிகாரப்பூர்வ அறிவிப்பு</small><h3>மாநிலப் பொறுப்புகள் – 15.07.2026</h3><p>அசல் அறிவிப்பு ஆவணத்தின் பக்கங்களை இங்கே இணைக்கலாம்.</p></div><div><a href="#" class="white">பக்கம் 1</a><a href="#" class="white">பக்கம் 2</a></div></div>
-</section>
+<footer>
+  <div class="container footer-inner">
+    <div><strong>விசிக பொறியாளர் அணி</strong><span>அறிவியல் • தொழில்நுட்பம் • சமூகநீதி • மக்கள் பணி</span></div>
+    <div>© 2026 VCK Engineers Wing – Tamil Nadu</div>
+  </div>
+</footer>
 
-<section class="section gray" id="activities">
- <label>04 / OUR WORK</label><h2>செயல்பாடுகள்</h2>
- <div class="activity"><article><b>01</b><h3>தொழில்நுட்ப ஒருங்கிணைப்பு</h3><p>பொறியாளர்கள் மற்றும் தொழில்நுட்ப வல்லுநர்களை ஒருங்கிணைத்தல்.</p></article>
- <article><b>02</b><h3>சமூகப் பங்களிப்பு</h3><p>தொழில்நுட்ப அறிவை மக்கள் நலச் செயல்பாடுகளுடன் இணைத்தல்.</p></article>
- <article><b>03</b><h3>இளைஞர் திறன் வளர்ச்சி</h3><p>இளம் பொறியாளர்கள் மற்றும் தொழில்நுட்பத் திறமைகளை ஊக்குவித்தல்.</p></article>
- <article><b>04</b><h3>அறிவு & திட்டமிடல்</h3><p>சமூக முன்னேற்றத்திற்கான பயனுள்ள திட்டங்களை உருவாக்குதல்.</p></article></div>
-</section>
-
-<section class="section" id="gallery">
- <label>05 / EVENTS & MEDIA</label><h2>நிகழ்வுகள் & புகைப்படங்கள்</h2><p class="sub">பொறியாளர் அணியின் நிகழ்வுகள், சந்திப்புகள் மற்றும் செயல்பாடுகள்.</p>
- <div class="gallery">
-  <figure><img src="IMG_1495.jpeg"><figcaption>பொறியாளர் அணி நிகழ்வு</figcaption></figure>
-  <figure><img src="IMG_2160.jpeg"><figcaption>பொறியாளர் அணி செயல்பாடு</figcaption></figure>
-  <figure><img src="IMG_2178.jpeg"><figcaption>நிகழ்வு</figcaption></figure>
-  <figure><img src="IMG_2211.jpeg"><figcaption>செயல்பாடு</figcaption></figure>
-  <figure><img src="IMG_2222.jpeg"><figcaption>நிகழ்வு</figcaption></figure>
-  <figure><img src="IMG_2277.jpeg"><figcaption>நிகழ்வு</figcaption></figure>
-  <figure><img src="IMG_2278.jpeg"><figcaption>நிகழ்வு</figcaption></figure>
- </div>
-</section>
-
-<section class="section contact" id="contact"><div><label>OFFICIAL CONTACT</label><h2>தொடர்பு</h2><h3>VCK — விடுதலைச் சிறுத்தைகள் கட்சி</h3><p><b>பொறியாளர் அணி – தலைமை அலுவலகம்</b><br>சர்வமங்களா காலனி,<br>அசோகா காலனி, அசோக் நகர்,<br>சென்னை – 600083, தமிழ்நாடு.</p></div><img src="vck-engineers-logo.jpeg" onerror="this.onerror=null;this.src='19F0A218-CA78-4AB7-A1CD-E662F06517D2.png'"></section>
-<footer>VCK ENGINEERS WING · விடுதலைச் சிறுத்தைகள் கட்சி – பொறியாளர் அணி · © 2026</footer>
-<button id="top">↑</button>
+<button id="topBtn" class="top-btn" aria-label="மேலே செல்ல">↑</button>
+<div id="lightbox" class="lightbox" aria-hidden="true"><button id="closeLightbox" aria-label="Close">×</button><img id="lightboxImg" alt=""></div>
 <script src="script.js"></script>
-</body></html>
+</body>
+</html>
