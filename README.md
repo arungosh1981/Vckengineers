@@ -1,6 +1,9 @@
-VCK Engineers Wing – Professional Website V2.2
+VCK Engineers Wing – V2.2.1
+Based on the previous V2.2 design.
 
-Base: previous V4 professional design.
-This update preserves the existing portal layout and adds a dedicated 26.07.2026 Engineers Wing event section with four photographs and lightbox viewing.
-
-Files: index.html, style.css, script.js, vck-engineers-logo.jpeg, and four event photographs.
+Added:
+- Official Engineers Wing 2026 state office-bearer appointment list
+- Official Engineers Wing 2026 district office-bearer appointment list
+- State Secretary: மு. மோகன்தாஸ்
+- Clickable document cards using the site's existing lightbox
+- Existing homepage, event section, gallery, leader section and styling retained

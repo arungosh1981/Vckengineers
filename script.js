@@ -24,7 +24,7 @@ setLanguage(lang);
 
 const lightbox = $('#lightbox');
 const lightboxImg = $('#lightboxImg');
-$$('.photo').forEach(btn => btn.addEventListener('click', () => {
+$$('.photo, .event-photo').forEach(btn => btn.addEventListener('click', () => {
   lightboxImg.src = btn.dataset.full;
   lightbox.classList.add('show');
 }));
